@@ -6,7 +6,7 @@
 
 		//array of custom settings
 		var settings = { 
-			'date': 1435280071+,
+			'date': null,
 			'format': null
 		};
 
@@ -18,9 +18,8 @@
 		//main countdown function
 		function countdown_proc() {
 			
-			eventDate = Date.parse(settings['date']) / 1000;
+			eventDate = 1447117211;
 			currentDate = Math.floor($.now() / 1000);
-			
 			
 			if(eventDate <= currentDate) {
 				callback.call(this);

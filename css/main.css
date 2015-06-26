@@ -470,7 +470,7 @@ h2 {
 
 .guitar2 {
   top: 0;
-  width: 50%;
+  width: 40%;
 }
 
 .guitar2 img {
@@ -478,7 +478,7 @@ h2 {
 }
 
 .about-content {
-  width: 50%;
+  width: 60%;
    background-image: url("../images/about-bg.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -492,7 +492,7 @@ h2 {
 }
 
 .about-content p {
-  font-size: 17px;
+  font-size: 1.2em;
   font-family: 'Dosis',sans-serif;
 }
 
@@ -539,15 +539,14 @@ h2 {
   display: inline-block;
   width: 78px;
   height: 78px;
-  border-radius: 50%;
   background-color: #c5c8ce;
-  padding: 5px;
+  padding: 1px;
   margin-bottom: 30px;
 }
 
 #twitter-feed .item a, 
 #twitter-feed .item p { 
-  font-size: 24px;
+  font-size: 2em;
   font-weight: 300;
   font-family: 'Yanone Kaffeesatz','sans-serif';
 }
@@ -757,4 +756,22 @@ h2 {
   color:#1B7B98
 }
 
-
+.navshadow
+{
+  -webkit-box-shadow: 0px 2px 14px 0px rgba(50, 50, 50, 0.53);
+-moz-box-shadow:    0px 2px 14px 0px rgba(50, 50, 50, 0.53);
+box-shadow:         0px 2px 14px 0px rgba(50, 50, 50, 0.53);
+}
+.navbar-brand h2
+{
+  color: #fff;
+  font-size: 3em;
+  margin: 0;
+  margin-left: 30px;
+}
+#awardshd
+{
+  font-size: 3em;
+  color:#1B7B98;
+  text-align: center;
+}
